@@ -19,3 +19,58 @@
  .dados-pessoais strong{
 text-transform: capitalize;
  }
+ .dados-contato>div{
+   width: 50%;
+   margin: 0;
+
+   align-text;
+   
+
+ }
+ .formacao{
+  border-bottom: 2px solid;
+ }
+
+ .formacao>h3{
+   border-bottom: 2px solid black;
+
+ }
+
+ .formacao .cartao{
+   display: flex;
+   flex-direction: column;
+   
+ border: 2px solid black;
+ border-radius: 15px;
+ 
+ padding: 10px;
+ height: 100px;
+
+ }
+
+ .formacao .cartao:hover{
+   scale: 1.02;
+   transition: ease-out 0.1s;
+   box-shadow: 3px 3px 10px rgba(29, 157, 255, 0.522);
+   
+ }
+ .cursos{
+  border: 2px solid black;
+ border-radius: 15px;
+ }
+.experiencia:hover{
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 60px;
+
+  scale: 1.02;
+  transition: ease-out 0.1s;
+  box-shadow: 3px 3px 10px rgba(29, 157, 255, 0.522);
+}
+.experiencia{
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 60px;
+  align-items: center;
+}
+
